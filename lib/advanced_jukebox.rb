@@ -38,7 +38,7 @@ def play(my_songs)
   #if it is, play the song using the system 'open <file path>' syntax
   #get the file path of the song by looking it up in the my_songs hash
   puts "Please enter a song name:"
-  input = gets.chomp
+  user_input = gets.chomp
   my_songs.each_key do |song|
     if input == song.downcase
       system "open " + my_songs[song]
