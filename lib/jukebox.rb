@@ -29,7 +29,7 @@ end
 
 def list(my_songs)
   i = 1
-   my_songs.each_key do |song|
+   my_songs.keys.each_with_index do |song, index|
     puts "#{i}. #{song}"
     i += 1
   end
