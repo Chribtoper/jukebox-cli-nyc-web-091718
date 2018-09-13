@@ -26,3 +26,11 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
+
+def list(my_songs)
+  i = 1
+   my_songs.each_key do |song|
+    puts "#{i}. #{song}"
+    i += 1
+  end
+end
