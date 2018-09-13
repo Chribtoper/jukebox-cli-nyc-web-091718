@@ -45,5 +45,19 @@ def exit_jukebox
 end
 
 def run(my_songs)
-  #this method is the same as in jukebox.rb
+  help
+  puts "Please enter a command:"
+  command = gets.chomp
+    case command
+    when "help"
+      help
+    when "list"
+      list
+    when "play"
+      play
+    when "exit"
+      exit_jukebox
+    else
+      command = gets.chomp
+    end
 end
