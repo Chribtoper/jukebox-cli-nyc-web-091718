@@ -13,22 +13,5 @@ my_songs = {
 "Graduation Failed" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\07.mp3>/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
-def help
-  puts "I accept the following commands:"
-  puts "- help : displays this help message"
-  puts "- list : lets you choose a song to play"
-  puts "- play : lets you choose a song to play"
-  puts "- exit : exits this program"
-end
-
-def list(my_songs)
-  i = 1
-   my_songs.each_key do |song|
-    puts "#{i}. #{song}"
-    i += 1
-  end
-end
-
-
 
 run(my_songs)
