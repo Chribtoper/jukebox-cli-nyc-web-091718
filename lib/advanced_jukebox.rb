@@ -40,7 +40,7 @@ def play(my_songs)
   puts "Please enter a song name:"
   user_input = gets.chomp
   my_songs.each_key do |song|
-    if input == song.downcase
+    if user_input == song.downcase
       system "open " + my_songs[song]
       break
     end
