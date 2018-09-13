@@ -53,4 +53,16 @@ def run(songs)
   help
   puts "Please enter a command:"
   command = gets.chomp
+    case command
+    when "help"
+      help
+    when "list"
+      list
+    when "play"
+      play
+    when "exit"
+      exit_jukebox
+    else
+      command = gets.chomp
+    end
 end
