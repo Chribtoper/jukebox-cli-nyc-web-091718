@@ -28,9 +28,7 @@ def help
 end
 
 def list(my_songs)
-  i = 1
    my_songs.keys.each_with_index do |song, index|
-    puts "#{i}. #{song}"
-    i += 1
+    puts "#{index+1}. #{song}"
   end
 end
