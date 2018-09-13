@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-my_songs = {
-"Go Go GO" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\01.mp3>/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\02.mp3>/jukebox-cli/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\03.mp3>/jukebox-cli/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\04.mp3>/jukebox-cli/audio/Emerald-Park/04.mp3',
-"Wolf" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\05.mp3>/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\06.mp3>/jukebox-cli/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\07.mp3>/jukebox-cli/audio/Emerald-Park/07.mp3'
-}
+#my_songs = {
+#{}"Go Go GO" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\01.mp3>/jukebox-cli/audio/Emerald-Park/01.mp3',
+#{}"LiberTeens" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\02.mp3>/jukebox-cli/audio/Emerald-Park/02.mp3',
+#{}"Hamburg" =>  '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\03.mp3>/jukebox-cli/audio/Emerald-Park/03.mp3',
+#{}"Guiding Light" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\04.mp3>/jukebox-cli/audio/Emerald-Park/04.mp3',
+#{}"Wolf" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\05.mp3>/jukebox-cli/audio/Emerald-Park/05.mp3',
+#{}"Blue" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\06.mp3>/jukebox-cli/audio/Emerald-Park/06.mp3',
+#{}"Graduation Failed" => '<C:\Users\VALHALLA\.atom\.learn-ide\home\Chribtoper\jukebox-cli-nyc-web-091718\audio\Emerald-Park\07.mp3>/jukebox-cli/audio/Emerald-Park/07.mp3'
+#}
 
 def help
   puts "I accept the following commands:"
